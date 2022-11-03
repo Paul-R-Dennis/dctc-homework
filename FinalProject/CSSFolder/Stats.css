@@ -1,0 +1,137 @@
+html {
+  background-color: white;
+  padding-bottom: 200px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown .dropbtn::after {
+  content: "▼";
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: white;
+  color: black;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+body {
+  width: 100%;
+  max-width: 1140px;
+  margin: auto;
+}
+
+#BannerPhoto {
+  width: 100%;
+  max-width: 1140px;
+}
+
+.table-sortable th {
+  cursor: pointer;
+}
+
+.table-sortable .th-sort-asc::after {
+  content: "\25b4";
+}
+
+.table-sortable .th-sort-desc::after {
+  content: "\25be";
+}
+
+.table-sortable .th-sort-asc::after,
+.table-sortable .th-sort-desc::after {
+  margin-left: 5px;
+}
+
+.table-sortable .th-sort-asc,
+.table-sortable .th-sort-desc {
+  background: rgba(0,0,0,0.1);
+}
+
+table.table-sortable {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+
+.table.table-sortable thead tr {
+    background-color: #154734;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+
+}
+
+.table.table-sortable th,
+.table.table-sortable td {
+    padding: 12px 15px;
+}
+
+.table.table-sortable tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.table.table-sortable tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.table.table-sortable tbody tr:last-of-type {
+  border-bottom: 2px solid #154734;
+}
+

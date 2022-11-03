@@ -1,0 +1,130 @@
+html {
+    background-color: white;
+    padding-bottom: 200px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+  .dropdown .dropbtn::after {
+    content: "▼";
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: white;
+    color: black;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  body {
+    width: 100%;
+    max-width: 1140px;
+    margin: auto;
+}
+
+#BannerPhoto {
+    width: 100%;
+    max-width: 1140px;
+}
+
+#box {
+  display: grid;
+  width: 100%;
+  column-count: 2;
+  grid-template-columns: 800px 250px;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.NewsBox {
+  width: 800px;
+  height: 250px;
+  border: 1px solid grey;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+#SampleAd {
+  background: wheat;
+  height: 300px;
+  float: right;
+  width: 250px;
+  margin-top: 25px;
+  border-radius: 10px;
+}
+
+#NewsHeader {
+  font-size: 30px;
+  padding: 15px;
+  padding-left: 20px;
+  width: auto;
+  border-bottom: 2px solid black;
+  text-transform: uppercase;
+
+}
+
+#NewsBody {
+  padding-left: 100px;
+  padding-top: 15px;
+  font-size: 20px;
+}
+
+#SampleAd {
+  width:100%;
+    height:100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 10px;
+}
