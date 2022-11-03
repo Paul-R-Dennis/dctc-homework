@@ -1,0 +1,43 @@
+html{
+    background-color: black;
+}
+.header #banner div {
+    align-items: center;
+    display: flex;
+}
+.header #banner {
+    align-items: center;
+    background-color:rgb(83, 83, 83);
+    border-bottom: 1px solid #444;
+    box-sizing: border-box;
+    display: flex;
+    font-size: 12px;
+    height: 30px;
+    left: 0;
+    padding: 0 30px;
+        padding-top: 0px;
+        padding-right: 30px;
+        padding-bottom: 0px;
+        padding-left: 30px;
+    position: absolute;
+    right: 0;
+    text-transform: uppercase;
+    top: 0;
+    white-space: nowrap;
+    z-index: 1;
+    
+}
+
+a {
+    padding: 5px;
+    width: auto;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+<t1>Welcome to my Personal Website!</t1>
+    
+    <br>
+    <intro>Hi, My name is Paul Dennis and this is my personal website.
+        <br>Here you will find out pretty much anything about me! </intro>
